@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*nav*/
+nav{
+    width: 100%;
+    height: 80px;
+}
+.zaga{
+    width: 100%;
+ display: flex;
+ color: black;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.MENU{
+    display: flex;
+      justify-content: center;
+        align-items: center;
+}
+.list{
+    display: flex;
+     width: 100%;
+       list-style: none;/*убирает точки*/
+       align-items: center;
+      margin-left: 20px;
+     
+      
+}
+.list li{
+        padding: 20px 40px;
+        cursor: pointer;
+    
+    }
+    .FOTO{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40PX;
+    }
+    .knopka{
+        width: 150px;
+        height: 35px;
+        border: none;
+        background: #65256F;
+        border-radius: 5px;
+        color: white;
+
+    }
+    /*section_one*/
+    #section_one{
+        width: 100%;
+        height: 150vh;
+    }
+
+    .block{
+        display: grid;
+        height: 150vh;
+       
+        padding: 40px 80px;
+    grid-template-areas: 
+    "box1 box2 box3"
+    "box4 box5 box3"
+    "box6 box6 box7"
+    ;
+    gap: 10px;   
+    }
+    
+    .box1{
+        grid-area: box1;
+        background: green;
+        background-image: url(./фото2/Rectangle\ 151.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        
+        
+    }
+    .box2{
+        grid-area: box2;
+        background: purple;
+        background-image: url(./фото2/Rectangle\ 150.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .box3{
+        grid-area: box3;
+        background: orange;
+        background-image: url(./фото2/Rectangle\ 146.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .box4{
+        grid-area: box4;
+        background: blue;
+        background-image: url(./фото2/Rectangle\ 151.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .box5{
+        grid-area: box5;
+        background: black;
+        background-image: url(./фото2/Rectangle\ 150.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .box6{
+        grid-area: box6;
+        background: yellow;
+        background-image: url(./фото2/Rectangle\ 151.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .box7{
+        grid-area: box7;
+        background: #65256F;
+        background-image: url(./фото2/Rectangle\ 150.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      position: relative;
+    }
+    b{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 30PX;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: #fff;
+     }
+
+     h3{
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        text-align: center;
+        white-space: nowrap;
+      }
+      h3:before,h3:after{
+        content: "";
+        display: inline-block;
+        position: relative;
+        top: -1px;
+        width: 50%;
+        height: 1px;
+        vertical-align: middle;
+        background: rgb(156, 152, 152);
+      }
+      h3:before{
+        left: -10px;
+        margin-left: -50%;
+      }
+      h3:after{
+        left: 10px;
+        margin-right: -50%;
+      }
+      h3>span{
+        display: inline-block;
+        vertical-align: middle;
+        white-space: normal;
+        min-width: 90%;
+      }
+     
+     /*section_two*/
+     #section_two{
+        width: 100%;
+        height: 40vh;
+        margin-top: 30px;
+     }
+     .section_conteiner_two{
+        width: 100%;
+        height: 40vh;
+        
+     }
+     .block_two{
+        display: flex;
+        justify-content: space-around;
+        padding: 0  60px;
+     }
+     .twobox{
+        width: 300px;
+        height: 250px;
+       
+       text-align: center;
+         
+     }
+/*section_three*/
+
+
+     #section_three{
+        width: 100%;
+        height: 40vh;
+      }
+          .section_conteiner_three{
+            width: 100%;
+            height: 40vh;
+            
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+      
+          } 
+          .three_div{
+            width: 100%;
+            height: 100px;
+      text-align: center;
+          }
+          input{
+            width: 300px; 
+            height: 40px;
+            border-radius: 3px;
+            border: none;
+             gap: 30px;
+             background: rgb(194, 194, 194);
+             color: white;
+          }
+          /*footer*/
+          #footer{
+            width: 100%;
+            height: 50vh;
+          } 
+          .footer_conteiner{
+            width: 100%;
+            height: 50vh;
+          }
+          .footer_block{
+            width: 100%;
+            height: 50vh;
+            background: rgb(43, 42, 42);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+          }
+          .footerbox{
+      width: 300px;
+      height: 350px;
+      color: white;
+      }
+      

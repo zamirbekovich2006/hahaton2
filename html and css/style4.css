@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*nav*/
+nav{
+    width: 100%;
+    height: 80px;
+}
+.zaga{
+    width: 100%;
+ display: flex;
+ color: black;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.MENU{
+    display: flex;
+      justify-content: center;
+        align-items: center;
+}
+.list{
+    display: flex;
+     width: 100%;
+       list-style: none;/*убирает точки*/
+       align-items: center;
+      margin-left: 20px;
+     
+      
+}
+.list li{
+        padding: 20px 40px;
+        cursor: pointer;
+    
+    }
+    .FOTO{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40PX;
+    }
+    .knopka{
+        width: 150px;
+        height: 35px;
+        border: none;
+        background: #65256F;
+        border-radius: 5px;
+        color: white;
+
+    }
+    /*section_one*/
+    #section_one{
+        width: 100%;
+        height: 80vh;
+    }
+    .section_conteiner_one{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+    }
+    .section_block{
+        width: 50%;
+        height: 80vh;
+
+    }
+    iframe{
+width: 40vw;
+height: 60vh;
+    }
+      /*footer*/
+      #footer{
+        width: 100%;
+        height: 50vh;
+      } 
+      .footer_conteiner{
+        width: 100%;
+        height: 50vh;
+      }
+      .footer_block{
+        width: 100%;
+        height: 50vh;
+        background: rgb(43, 42, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+      }
+      .footerbox{
+  width: 300px;
+  height: 350px;
+  color: white;
+  }
+  

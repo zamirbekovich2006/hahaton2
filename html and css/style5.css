@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*nav*/
+nav{
+    width: 100%;
+    height: 80px;
+}
+.zaga{
+    width: 100%;
+ display: flex;
+ color: black;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.MENU{
+    display: flex;
+      justify-content: center;
+        align-items: center;
+}
+.list{
+    display: flex;
+     width: 100%;
+       list-style: none;/*убирает точки*/
+       align-items: center;
+      margin-left: 20px;
+     
+      
+}
+.list li{
+        padding: 20px 40px;
+        cursor: pointer;
+    
+    }
+    .FOTO{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40PX;
+    }
+    .knopka{
+        width: 150px;
+        height: 35px;
+        border: none;
+        background: #65256F;
+        border-radius: 5px;
+        color: white;
+
+    }
+    
+    /*section_one*/
+    #section_one{
+        width: 100%;
+        height: 160vh;
+    }
+
+    .block{
+        display: grid;
+        height: 160vh;
+       
+        padding: 40px 80px;
+    grid-template-areas: 
+    "box1 box1 box2 box3"
+    "box1 box1 box4 box4"
+    "box5 box5 box8 box8"
+    "box6 box7 box8 box8"
+    ;
+    gap: 10px;   
+    }
+    
+    .box1{
+        grid-area: box1;
+        background-image: url(./foto56/Rectangle\ 162.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        
+        
+    }
+    .box2{
+        grid-area: box2;
+          background-image: url(./foto56/Rectangle\ 163.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: brightness(50%)
+    }
+    .box3{
+        grid-area: box3;
+         background-image: url(./foto56/Rectangle\ 143.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: brightness(50%)
+    }
+    .box4{
+        grid-area: box4;
+        background-image: url(./foto56/Rectangle\ 165.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .box5{
+        grid-area: box5;
+     background-image: url(./foto56/Rectangle\ 166.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .box6{
+        grid-area: box6;
+       background-image: url(./foto56/Rectangle\ 143.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: brightness(50%)
+    }
+    .box7{
+        grid-area: box7;
+        background-image: url(./foto56/Rectangle\ 168.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      position: relative;
+    }
+    .box8{
+        grid-area: box8;
+        background-image: url(./foto56/Rectangle\ 169.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      position: relative;
+    }
+    b{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 30PX;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: #fff;
+     }
+     h3{
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        text-align: center;
+        white-space: nowrap;
+      }
+      h3:before,h3:after{
+        content: "";
+        display: inline-block;
+        position: relative;
+        top: -1px;
+        width: 50%;
+        height: 1px;
+        vertical-align: middle;
+        background: rgb(156, 152, 152);
+      }
+      h3:before{
+        left: -10px;
+        margin-left: -50%;
+      }
+      h3:after{
+        left: 10px;
+        margin-right: -50%;
+      }
+      h3>span{
+        display: inline-block;
+        vertical-align: middle;
+        white-space: normal;
+        min-width: 90%;
+      }
+     
+     /*footer*/
+     #footer{
+        width: 100%;
+        height: 50vh;
+      } 
+      .footer_conteiner{
+        width: 100%;
+        height: 50vh;
+      }
+      .footer_block{
+        width: 100%;
+        height: 50vh;
+        background: rgb(43, 42, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+      }
+      .footerbox{
+  width: 300px;
+  height: 350px;
+  color: white;
+  }
+  

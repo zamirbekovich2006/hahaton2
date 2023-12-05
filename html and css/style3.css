@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*nav*/
+nav{
+    width: 100%;
+    height: 80px;
+}
+.zaga{
+    width: 100%;
+ display: flex;
+ color: black;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.MENU{
+    display: flex;
+      justify-content: center;
+        align-items: center;
+}
+.list{
+    display: flex;
+     width: 100%;
+       list-style: none;/*убирает точки*/
+       align-items: center;
+      margin-left: 20px;
+     
+      
+}
+.list li{
+        padding: 20px 40px;
+        cursor: pointer;
+    
+    }
+    .FOTO{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40PX;
+    }
+    .knopka{
+        width: 150px;
+        height: 35px;
+        border: none;
+        background: #65256F;
+        border-radius: 5px;
+        color: white;
+
+    }
+    /*section_one*/
+    #section_one{
+        width: 100%;
+        height: 80vh;
+    }
+    .section_conteiner_one{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+    }
+    .section_img{
+        width: 85%;
+        height: 65vh;
+        background: red;
+        margin-left: 110px;
+        margin-top: 60px;
+        background-image: url(./фото3/Rectangle\ 141.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+        h3{
+            overflow: hidden;
+            position: relative;
+            margin: 0;
+            text-align: center;
+            white-space: nowrap;
+          }
+          h3:before,h3:after{
+            content: "";
+            display: inline-block;
+            position: relative;
+            top: -1px;
+            width: 50%;
+            height: 1px;
+            vertical-align: middle;
+            background: rgb(156, 152, 152);
+          }
+          h3:before{
+            left: -10px;
+            margin-left: -50%;
+          }
+          h3:after{
+            left: 10px;
+            margin-right: -50%;
+          }
+          h3>span{
+            display: inline-block;
+            vertical-align: middle;
+            white-space: normal;
+            min-width: 90%;
+          }
+         
+        /*section_two*/
+        #section_two{
+            width: 100%;
+            height: 27vh;
+        }
+        .section_conteiner_two{
+            width: 100%;
+            height: 27vh;
+            text-align: center;
+        }
+        .text{
+            width: 1200px;
+            margin-left: 150px;
+        }
+        /*section_three*/
+        #section_three{
+            width: 100%;
+            height: 45vh;
+        }
+        .section_conteiner_three{
+            width: 100%;
+            height: 45vh;
+           
+        }
+.box{
+    width: 300px;
+    height: 300px;
+ text-align: center;
+}
+img{
+    margin-top: 45px;
+}
+/*section_four*/
+#section_four{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+ .section_conteiner_four{
+    width: 100%;
+    height: 50vh;
+     background-image: url(./фото3/Rectangle\ 161.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+/*section_five*/
+#section_five{
+    width: 100%;
+    height: 40vh;
+    margin-top: 30px;
+ }
+ .section_conteiner_five{
+    width: 100%;
+    height: 40vh;
+    
+ }
+ .block_five{
+    display: flex;
+    justify-content: space-around;
+    padding: 0  60px;
+ }
+ .fivebox{
+    width: 300px;
+    height: 250px;
+   
+   text-align: center;
+     
+ }
+ /*section_six*/
+ #section_six{
+    width: 100%;
+height: 60vh;
+}
+.section_conteiner_six{
+    width: 100%;
+    height: 60vh;
+    
+    gap: 20px;
+}
+/*section_seven*/
+
+
+
+#section_seven{
+    width: 100%;
+    height: 40vh;
+  }
+      .section_conteiner_seven{
+        width: 100%;
+        height: 40vh;
+        
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+  
+      } 
+      .seven_div{
+        width: 100%;
+        height: 100px;
+  text-align: center;
+      }
+      input{
+        width: 300px; 
+        height: 40px;
+        border-radius: 3px;
+        border: none;
+         gap: 30px;
+         background: rgb(194, 194, 194);
+         color: white;
+      }
+      /*footer*/
+      #footer{
+        width: 100%;
+        height: 50vh;
+      } 
+      .footer_conteiner{
+        width: 100%;
+        height: 50vh;
+      }
+      .footer_block{
+        width: 100%;
+        height: 50vh;
+        background: rgb(43, 42, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+      }
+      .footerbox{
+  width: 300px;
+  height: 350px;
+  color: white;
+  }
+  
